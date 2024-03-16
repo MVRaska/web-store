@@ -1,0 +1,52 @@
+.productInfoImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productImg img {
+    width: 40%;
+    margin: 10px;
+}
+
+.productInfo {
+    text-align: left;
+    width: 100%;
+    padding: 30px;
+}
+
+.productTitle {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.productPrice, .productRate {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.productRate p {
+    display: inline-block;
+}
+
+.productRateCustomers {
+    font-size: 0.7rem;
+    margin-left: 10px;
+}
+
+.productInfo button {
+    margin-top: 30px;
+}
+
+.productRate .productRateStars {
+    color: #FFD700;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .productInfoImg {
+       flex-direction: column;
+    }
+}
+

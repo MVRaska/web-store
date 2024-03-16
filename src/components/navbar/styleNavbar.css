@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+img[alt='cart'] {
+    width: 30px;
+    margin-left: 20px;
+}
+img[alt='logo'] {
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+.numberOfItems {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(250, 13, 199);
+    background: white;
+    border: 1px solid blueviolet;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 11px;
+    vertical-align: middle;
+    padding: 5px 2px;
+    position: absolute;
+    top: 58px;
+    margin-left: 3px;
+    z-index: 1;
+}

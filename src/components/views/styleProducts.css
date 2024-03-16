@@ -1,0 +1,17 @@
+.productsFilterOrder {
+    text-align: right;
+    margin: 30px 20px 50px;
+}
+
+.productsFilter, .productsOrder {
+    display: inline-block;
+    text-align: left;
+}
+
+.productsOrder {
+    margin-left: 30px;
+}
+
+.productsFilter p, .productsOrder p {
+    margin-bottom: 10px;
+}

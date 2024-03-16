@@ -1,0 +1,44 @@
+.saleProductInfo {
+    margin: 50px 0;
+}
+
+.footer {
+    background: rgb(221, 194, 247);
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    margin: 0;
+}
+
+.footer div {
+    display: inline-block;
+    margin: 0 4px 10px;
+    font-size: 0.8rem;
+}
+
+.saleProductInfo {
+    margin-bottom: 180px;
+}
+
+.saleProductInfo img {
+    width: 180px;
+    margin: 20px 0;
+}
+
+.home h1 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.home h3 {
+    margin: 10px;
+}
+
+#h3HomeMargin {
+    margin-top: 80px;
+}

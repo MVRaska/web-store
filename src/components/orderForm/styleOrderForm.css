@@ -1,0 +1,38 @@
+.orderForm {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.orderForm h2 {
+    margin: 40px;
+}
+
+.orderForm p {
+    text-align: left;
+}
+
+.inputDescription {
+    margin-bottom: 10px;
+}
+
+.inputContainer input {
+    width: 100%; 
+}
+
+.inputHalf {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputHalf div {
+    width: 50%;
+}
+
+.inputHalf input {
+    width: 100%;
+}
+
+.infoType {
+    text-align: left;
+}
