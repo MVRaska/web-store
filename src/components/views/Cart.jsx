@@ -1,4 +1,4 @@
-import { useContext, useState, useEffect } from "react";
+import { useContext} from "react";
 import {Link} from 'react-router-dom';
 import { CartContext } from "../../cartContext/CartContext";
 import back from '../../assets/back.png';
@@ -38,8 +38,8 @@ const Cart = () => {
                     onSaleId={onSaleId}
                     sale={sale}
                 />
-                <p>total price:
-                    {discountTotalPrice > 0 ? (
+                <p>Total price: 
+                    {discountTotalPrice !== fullTotalPrice && (
                         <div>
                             <span style={{ textDecoration: 'line-through' }}>
                                 <span className='dollar'>$</span>
@@ -50,9 +50,12 @@ const Cart = () => {
                                 {discountTotalPrice.toFixed(2)}
                             </p>
                         </div>
-                    ) : (
-                        <span>Total price: <span className='dollar'>$</span>{fullTotalPrice.toFixed(2)}</span>
                     )}
+                    
+                    {discountTotalPrice === fullTotalPrice && (
+                        <span style={{marginLeft: '20px'}}><span className='dollar'>$</span>{fullTotalPrice.toFixed(2)}</span>
+                    )}
+                
                 </p>
                 <button onClick={clearCart}>clear cart</button>
                 <OrderForm clearCart={clearCart} setOrderComplete={setOrderComplete} />
